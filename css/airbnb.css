@@ -8,7 +8,7 @@ body {
   background-color: #ff5a5f;
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: 350px;
   width: 100%; }
   .header a {
     margin: 20px;
@@ -17,24 +17,42 @@ body {
   .header .ref {
     margin-top: 3%; }
   .header .title {
-    margin-top: 20%;
+    margin-top: 10%;
     color: #484848;
     font-size: 30px; }
 
 .form {
-  border: 1px solid #484848;
-  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-right: 10%;
+  margin-left: 10%;
   margin-top: 40px; }
+  .form input {
+    margin-top: 40px;
+    height: 80px; }
 
-.input {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; }
+input:placeholder-shown {
+  font-size: 15px;
+  padding-left: 25px; }
+
+button {
+  height: 80px;
+  background-color: #ff5a5f; }
+
+h3 {
+  margin-top: 40px;
+  color: #484848;
+  margin-left: 73px; }
 
 .exp {
-  display: inline-block; }
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px; }
   .exp img {
-    width: 154px;
-    height: 200px; }
+    width: 250px;
+    height: 300px; }
 
 /*# sourceMappingURL=airbnb.css.map */
