@@ -4,59 +4,81 @@
 body {
   margin: 0; }
 
+.titleIcon {
+  font-size: 5em; }
+
 .header {
   background-color: #ff5a5f;
   display: flex;
   justify-content: space-between;
-  height: 350px;
+  height: 20em;
   width: 100%; }
   .header a {
-    margin: 20px;
+    margin: 1em;
     text-decoration: none;
     color: black; }
   .header .ref {
-    margin-top: 3%; }
+    margin-top: 1em; }
   .header .title {
-    margin-top: 10%;
+    margin-top: 1em;
     color: #484848;
-    font-size: 30px; }
+    font-size: 1em; }
 
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 40px; }
+  margin-top: 1em; }
   .form input {
-    margin-top: 40px;
-    height: 80px; }
+    margin-top: 1em;
+    height: 5em; }
 
 input:placeholder-shown {
-  font-size: 15px;
-  padding-left: 25px; }
+  font-size: 1em;
+  padding-left: 1em; }
 
 button {
-  height: 80px;
+  height: 6em;
   background-color: #ff5a5f; }
 
 h3 {
-  margin-top: 40px;
+  margin-top: 1em;
   color: #484848;
-  margin-left: 73px; }
+  margin-left: 10%; }
 
 .exp {
-  display: flex;
+  display: inline-block;
   justify-content: space-around;
-  margin-left: 50px;
-  margin-right: 50px; }
+  margin-left: 15%; }
+  .exp .tof {
+    display: inline-block;
+    margin: 0.625em; }
   .exp img {
-    width: 250px;
-    height: 300px; }
+    width: auto;
+    height: auto; }
 
-.twoClass {
-  margin-top: 10px;
-  margin-left: 73px; }
+.exp2 {
+  display: inline-block;
+  justify-content: space-around;
+  margin-left: 7%; }
+  .exp2 .tof {
+    display: inline-block;
+    margin: 0.625em; }
+  .exp2 img {
+    width: auto;
+    height: auto; }
+
+.select1 {
+  width: 100px;
+  height: 50px; }
+
+@media screen and (max-width: 801px) {
+  .ref {
+    visibility: hidden; } }
+@media screen and (min-width: 801px) {
+  select {
+    visibility: hidden; } }
 
 /*# sourceMappingURL=airbnb.css.map */
